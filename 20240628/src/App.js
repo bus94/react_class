@@ -84,21 +84,34 @@ function App() {
   //   setFilterUser(findChar);
   // }
 
-  // 이름 뿐만 아니라 다른 column의 값들 모두 찾아서 확인하는 함수 (숫자는 제외할 수 있도록 코딩) - 작성 중 (20240628-17:08 기준)
+  // 이름 뿐만 아니라 다른 column의 값들 모두 찾아서 확인하는 함수 (숫자는 제외할 수 있도록 코딩) - 작성 중 (20240628-17:50 기준)
   // function searchByChar() {
   //   console.log("문자로 검색 중");
   //   // 저장되어있는 users에서 filter의 조건을 만족하는 user를 뽑아서 findChar에 저장
   //   const findChar = users.filter(function (user) {
+  //     console.log("1");
+  //     console.log(user);
   //     // user의 column값을 불러오기 위해 forEach로 각각의 element 불러오기
   //     user.forEach(element => {
+  //       console.log("2");
+  //       console.log(element);
   //       //  typeof string  검사
   //       if ((typeof element) === 'Object') {
+  //         console.log("3");
   //         return element.toLowerCase().includes(search.toLowerCase());
   //       } else {
+  //         console.log("4");
   //         return element.includes(search);
   //       }
+  //       console.log("5");
+  //       // temp에 저장하기
+  //       setTemp(element);
   //     });
+  //     console.log("6");
+  //     // 저장한 temp를 findChar에 저장(?)
+  //     findChar = temp;
   //   })
+  //   console.log("7");
   //   setFilterUser(findChar);
   // }
 

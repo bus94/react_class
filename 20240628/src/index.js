@@ -6,13 +6,14 @@ import './index.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import App from './App';
+// import App from './App';
+import KeyEx from './KeyEx';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <KeyEx />
   </React.StrictMode>
 );
 

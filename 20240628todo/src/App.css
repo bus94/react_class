@@ -1,0 +1,17 @@
+.container {
+  background: black;
+  color: chocolate;
+}
+
+.container_title {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.container_list {
+  padding: 10px;
+}
+
+.container_add {
+  padding: 10px;
+}
